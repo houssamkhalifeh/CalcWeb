@@ -17,6 +17,8 @@ namespace CalcWeb
         public static void Main(string[] args)
         {
             var AWS_SECRET_ACCESS_KEY="wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY";
+            var a = new SqlInjection();
+            a.GetDataSetByCategory("aa");
             CreateHostBuilder(args).Build().Run();
         }
 
