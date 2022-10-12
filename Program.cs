@@ -32,7 +32,7 @@ namespace CalcWeb
 
 class SqlInjection
 {
-    string connectionString;
+    string connectionString = "Server=1.2.3.4;Database=Anything;Integrated Security=true;";
 
     public DataSet GetDataSetByCategory(string categoryTextBoxText)
     {
